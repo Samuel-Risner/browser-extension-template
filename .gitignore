@@ -1,4 +1,7 @@
 .vscode/
 node_modules/
 extension.zip
-source code.zip
+extension/css/dist/*
+!extension/css/dist/.gitkeep
+extension/js/dist/*
+!extension/js/dist/.gitkeep

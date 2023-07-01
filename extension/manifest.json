@@ -16,8 +16,8 @@
   "content_scripts": [
     {
       "matches": [""],
-      "js": ["js/dist/bundle.js"],
-      "css": ["css/dist/output.css"]
+      "js": [""],
+      "css": [""]
     }
   ]
 
