@@ -65,7 +65,7 @@ or
             - ```content: ["src/<name>/**/*.ts"],``` or
             - ```content: ["src/<name>/**/*.ts", "extension/html/<name>.html],"``` if you require an html file
 - go to the ```extension``` folder
-    - add your html file (if you have/need one) ```<name>.html``` to the folder ```html``` (you can use your script by using ```<script type="text/javascript" src="js/dist/<name>.js"></script>``` and your css by using: ```<link href="css/dist/<name>.css" rel="stylesheet">```)
+    - add your html file (if you have/need one) ```<name>.html``` to the folder ```html``` (you can use your script by using ```<script type="text/javascript" src="/js/dist/<name>.js"></script>``` and your css by using: ```<link href="/css/dist/<name>.css" rel="stylesheet">```)
     - add your script (and css) to the ```manifest.json``` file (you can link your script by using: ```js/dist/<name>.js``` and css by using ```css/dist/<name>.css```)
 - go to the ```src``` folder
     - add the folder ```<name>``` and enter it
