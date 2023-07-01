@@ -11,16 +11,15 @@ To use this template you should reset/set some stuff:
 - set "name" to your extensions name
 - set "description"
 - set "homepage_url" to your repos readme
-- set the different "icons"
-- under "content_scripts" set "matches"
 
 ## package.json
 
 - change the "name" to your extensions/repos name
 - change the "description"
-- under "repository" change the "url" to your repos name
+- under "repository" change the "url" to that of your repos
 - change "author" to your name
-- under "bugs" change "url" to your repos
+- change "license" to your license
+- under "bugs" change "url" to that of your repos
 - change "homepage" to your repos readme
 
 ## package-lock.json
@@ -40,7 +39,7 @@ or
 - change the name
 - change the date
 
-## Remove .gitignore files
+## Remove .gitkeep files
 
 - extension/css/dist/
 - extension/js/dist/

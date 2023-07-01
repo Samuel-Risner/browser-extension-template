@@ -2,7 +2,7 @@
   "name": "browser-extension-template",
   "version": "1.0.0",
   "description": "A template for creating a browser extension (Firefox).",
-  "main": "extension/js/dist/bundle.js",
+  "main": "",
   "scripts": {
     "build_wp_background": "webpack --config config/background/webpack.config.js",
     "watch_wp_background": "webpack --config config/background/webpack.config.js --watch",

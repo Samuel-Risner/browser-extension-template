@@ -6,19 +6,6 @@
 
   "description": "",
 
-  "homepage_url": "",
-
-  "icons": {
-    "48": "",
-    "96": ""
-  },
-
-  "content_scripts": [
-    {
-      "matches": [""],
-      "js": [""],
-      "css": [""]
-    }
-  ]
+  "homepage_url": ""
 
 }
