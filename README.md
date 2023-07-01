@@ -76,3 +76,9 @@ or
     - ```"build_tw_<name>": "tailwindcss -c ./config/<name>/tailwind.config.cjs -i ./tw/<name>.css -o ./extension/css/dist/<name>.css --minify",```
     - ```"watch_tw_<name>": "tailwindcss -c ./config/<name>/tailwind.config.cjs -i ./tw/<name>.css -o ./extension/css/dist/<name>.css --watch",```
     - also add the newly created scripts to the ```build``` script
+
+# How to remove one of the predefined configs
+
+In the ```config``` folder are three other folders: ```background```, ```content``` and ```popup```.
+
+Just walk through [adding another content script](#how-to-add-another-content-script-or-something-else-that-you-want-to-build-separately) backward and use the folder names as ```<name>```.
