@@ -2,6 +2,10 @@
 
 A template for creating a browser extension (Firefox).
 
+# Doing more
+
+See https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/manifest.json for a list of what can be added to the ```manifest.json``` file.
+
 # Setup
 
 To use this template you should reset/set some stuff:
