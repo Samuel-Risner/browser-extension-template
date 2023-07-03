@@ -48,6 +48,7 @@ or
 - extension/css/dist/
 - extension/js/dist/
 - extension/icons/
+- src/shared/
 
 # How to add another content script (or something else that you want to build separately):
 
