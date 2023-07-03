@@ -86,3 +86,54 @@ or
 In the ```config``` folder are three other folders: ```background```, ```content``` and ```popup```.
 
 Just walk through [adding another content script](#how-to-add-another-content-script-or-something-else-that-you-want-to-build-separately) backward and use the folder names as ```<name>```.
+
+# Build instructions
+
+System requirements:
+
+- Node v18.13.0
+- npm 9.7.1
+
+Install the required npm packages:
+
+```shell
+npm install
+```
+
+Run the build script to build everything:
+
+```shell
+npm run build
+```
+
+Or build single parts:
+
+## extension/js/dist/content.js
+
+The TypeScript source files are under ```src/content``` and ```src/shared``` and the config files are under ```config/content```.
+
+Build script:
+
+```shell
+npm run build_wp_content
+```
+
+## extension/js/dist/popup.js
+
+The TypeScript source files are under ```src/popup``` and ```src/shared``` and the config files are under ```config/popup```.
+
+Build script:
+
+```shell
+npm run build_wp_popup
+```
+
+## extension/js/dist/background.js
+
+The TypeScript source files are under ```src/background``` and ```src/shared``` and the config files are under ```config/background```.
+
+Build script:
+
+```shell
+npm run build_wp_background
+```
