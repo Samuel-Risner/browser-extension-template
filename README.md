@@ -86,7 +86,7 @@ or
 
 In the ```config``` folder are three other folders: ```background```, ```content``` and ```popup```.
 
-Just walk through [adding another content script](#how-to-add-another-content-script-or-something-else-that-you-want-to-build-separately) backward and use the folder names as ```<name>```.
+Just walk through [adding another content script](#how-to-add-another-content-script-or-something-else-that-you-want-to-build-separately) backwards and use the folder names as ```<name>```.
 
 # Build instructions
 
