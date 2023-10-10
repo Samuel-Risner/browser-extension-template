@@ -79,7 +79,7 @@ or
     - ```"build_wp_<name>": "webpack --config config/<name>/webpack.config.js",```
     - ```"watch_wp_<name>": "webpack --config config/<name>/webpack.config.js --watch",```
     - ```"build_tw_<name>": "tailwindcss -c ./config/<name>/tailwind.config.cjs -i ./tw/<name>.css -o ./extension/css/dist/<name>.css --minify",```
-    - ```"watch_tw_<name>": "tailwindcss -c ./config/<name>/tailwind.config.cjs -i ./tw/<name>.css -o ./extension/css/dist/<name>.css --watch",```
+    - ```"watch_tw_<name>": "tailwindcss -c ./config/<name>/tailwind.config.cjs -i ./tw/<name>.css -o ./extension/css/dist/<name>.css --minify --watch",```
     - also add the newly created scripts to the ```build``` script
 
 # How to remove one of the predefined configs
